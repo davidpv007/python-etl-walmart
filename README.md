@@ -42,9 +42,15 @@ python scripts/etl_walmart.py
 **Project structure** 
 
 Data_projects/
-│── notebooks/
-│── scripts/
-│── README.md
-│── requirements.txt
+│── notebooks/        # Exploratory analysis and data cleaning
+│── scripts/          # Production-ready ETL scripts
+│── README.md         # Project documentation
+│── requirements.txt  # Python dependencies
+
+
+
+
+
+
 
 
