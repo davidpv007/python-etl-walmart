@@ -41,11 +41,14 @@ python scripts/etl_walmart.py
 
 **Project structure** 
 
+```text
 Data_projects/
 │── notebooks/        # Exploratory analysis and data cleaning
 │── scripts/          # Production-ready ETL scripts
 │── README.md         # Project documentation
-│── requirements.txt  # Python dependencies
+│── requirements.txt # Python dependencies
+```
+
 
 
 
