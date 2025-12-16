@@ -1,7 +1,8 @@
 # **Walmart Sales ETL Pipeline**
+
 End-to-end ETL pipeline that cleans, transforms, and loads retail sales data into PostgreSQL using polars and pandas.
 
-## **main issue with the original dataset**
+## **Main issue with the original dataset**
 
 Raw Walmart sales data contained duplicates, nulls, and inconsistent pricing formats that prevent reliable analysis in PostgresSQL
 
@@ -30,16 +31,16 @@ Raw Walmart sales data contained duplicates, nulls, and inconsistent pricing for
 
 The pipeline removes full-row duplicates using **`pl.struct(pl.all())`**, normalizes price formats, casts numeric columns, and computes total sales.
 
-## **Database schema / destination**
+### **Database schema / destination**
 
 Created a db in **PostgresSQL** for making the data ready for analysis.
 
-## **Run the project**
+### **Run the project**
 ```
 pip install -r requirements.txt
 python scripts/etl_walmart.py
 ```
-## **Project structure** 
+### **Project structure** 
 
 ```text
 Data_projects/
@@ -48,6 +49,7 @@ Data_projects/
 │── README.md         # Project documentation
 │── requirements.txt # Python dependencies
 ```
+
 
 
 
