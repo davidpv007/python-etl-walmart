@@ -1,5 +1,7 @@
 # **Walmart Sales ETL Pipeline**
 
+DAVID PELAEZ ES GAY
+
 End-to-end ETL pipeline that cleans, transforms, and loads retail sales data into PostgreSQL using polars and pandas.
 
 ## **Main issue with the original dataset**
@@ -49,6 +51,7 @@ Data_projects/
 │── README.md         # Project documentation
 │── requirements.txt # Python dependencies
 ```
+
 
 
 
