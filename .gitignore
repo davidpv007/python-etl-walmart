@@ -1,0 +1,22 @@
+# Virtual environments
+env_1/
+../env_1/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+*.csv
+*.xlsx
+
+# Secrets
+.env
+*.env
+
+# OS
+.DS_Store
+
